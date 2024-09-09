@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.top-bar span:first-child {
+    float: left;
+}
+
+/* Logo and Search */
+.logo-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 6px;
+    background-color: #c00;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Navigation */
+nav {
+    background-color: #9b111e;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #e5b76e;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #f9d13b;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f5c21b;
+}
